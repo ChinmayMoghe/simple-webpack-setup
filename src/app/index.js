@@ -1,4 +1,3 @@
-console.log('Hello World from your main file!');
 import '../style/tryscss.scss';
 class TestClass {
     constructor() {
