@@ -20,7 +20,7 @@ module.exports = {
     },
     plugins: [
         // Array of plugins to apply to build chunks
-        new HtmlWebpackPlugin({
+        new HTMLWebpackPlugin({
             template: __dirname + "/src/public/index.html",
             inject: 'body'
         })
