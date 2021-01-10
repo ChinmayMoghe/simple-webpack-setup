@@ -1,0 +1,15 @@
+{
+  "name": "webpack-simple-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chinmay <chinmay11.moghe@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.1",
+    "webpack": "^5.12.2",
+    "webpack-dev-server": "^3.11.1"
+  }
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --progress"
+  }
+}
