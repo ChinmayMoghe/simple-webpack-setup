@@ -1,15 +1,12 @@
-# 🚀 Welcome to your new awesome project!
+# Webpack setup project
 
-This project has been created using **webpack scaffold**, you can now run
+## Goal
+Understand various parts of webpack , how webpack works , this serves as a bare minimum configuration to run any modern web development project for me.
 
-```
-npm run build
-```
+## Run this project
+Use the following commands for various operations:
 
-or
-
-```
-yarn build
-```
-
-to bundle your application
+1. yarn install → Install project dependencies.
+2. yarn add → add project dependencies (as required , add suffix -D for dev-dependencies)
+3. yarn start → run this project (open up localhost:8080/ on browser)
+4. yarn build → build the webpack bundle.
